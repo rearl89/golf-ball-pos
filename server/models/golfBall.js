@@ -13,7 +13,7 @@ const golfBallSchema = new mongoose.Schema({
   condition: {
     type: String,
     required: true,
-    enum: ["Excellent", "Good", "Fair", "Poor"],
+    enum: ["Excellent", "Good", "Fair"],
   },
   price: {
     type: Number,
